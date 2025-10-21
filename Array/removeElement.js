@@ -31,7 +31,7 @@ var removeElement = function(nums, val) {
             nums[k] = nums[i];              // move it to the front (to index k)
             k++;                            // increment k to next position
         }
-    }
+    } 
 
     // 'k' now represents the number of elements not equal to val
     return k;
